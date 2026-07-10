@@ -1,0 +1,10 @@
+s1=input()
+s2=input()
+flag=0
+for i in range(len(s1)):
+    if s1==s2[i:]+s2[:i]:
+        flag=1
+if flag==1:
+    print("True")
+else:
+    print("False")
