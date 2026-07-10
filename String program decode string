@@ -1,0 +1,5 @@
+s=input()
+for i in range(0,len(s)-1,2):
+    j=i+1
+    print(s[j]*int(s[i]),end="")
+    
