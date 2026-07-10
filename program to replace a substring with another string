@@ -1,0 +1,6 @@
+s=input()
+f=input()
+r=input()
+if f in s:
+        s=s.replace(f,r)
+print(s)
