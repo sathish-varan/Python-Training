@@ -1,0 +1,8 @@
+s=input()
+r=""
+for i in s:
+    if i not in r:
+        n=s.count(i)
+        r+=i+str(n)
+print(r)
+    
